@@ -190,9 +190,6 @@ def sanity_checks(optional=True):
     # Make sure we're on Python 3.5+
     req_ensure_py3()
 
-    # Fix windows encoding fuckery
-    req_ensure_encoding()
-
     # Make sure we're in a writeable env
     req_ensure_env()
 
